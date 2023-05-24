@@ -1,4 +1,4 @@
-# Decentralized MF with HDP 
+# HDPMF
 
 This is our implementation for [dencentralized matrix factorization with heterogeneous differential privacy](https://arxiv.org/pdf/2212.00306.pdf):
 
