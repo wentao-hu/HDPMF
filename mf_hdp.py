@@ -55,7 +55,7 @@ def main():
     # Command line arguments
     parser = argparse.ArgumentParser()
     #running mode 
-    parser.add_argument('--mode',type=str,default='test',help='cv means cross validation mode, test means test mode')
+    parser.add_argument('--mode',type=str,default='cv',help='cv means cross validation mode, test means test mode')
     #experiment setting  
     parser.add_argument('--data',type=str,default='Data/ml-1m',help='Path to the dataset')
     parser.add_argument('--epochs',type=int,default=100,help='Number of private training epochs in a decentralized way')

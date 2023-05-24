@@ -4,17 +4,21 @@ This is our implementation for [dencentralized matrix factorization with heterog
 
 
 ## Example to run the codes.
-The instruction of commands has been clearly stated in the codes (see the  parse_args function). 
 
 Run Our method HDPMF :
 ```
-python mf_hdp_centralized.py --data Data/ml-1m --max_budget 1 --nonprivate_epochs 54 --private_epochs 54 --embedding_dim 8 --regularization 0.005 --learning_rate 0.002 --stddev 0.1
+python mf_hdp.py --data Data/ml-1m  --lr 0.01 --embedding_dim 10 --regularization 0.01  --stddev 0.1
 
 ```
 
 Run baseline method PDPMF:
 ```
-python mf_sampling_centralized.py --data Data/ml-1m --max_budget 1 --threshold 1 --nonprivate_epochs 54 --private_epochs 54 --embedding_dim 8 --regularization 0.005 --learning_rate 0.002 --stddev 0.1
+python mf_sampling.py --data Data/ml-1m  --lr 0.01 --embedding_dim 10 --regularization 0.01  --stddev 0.1
+```
+
+Run nonprivate MF:
+```
+python mf_nonprivate.py --data Data/ml-1m  --lr 0.01 --embedding_dim 10 --regularization 0.01 --stddev 0.1
 ```
 
 ## Code Reference
