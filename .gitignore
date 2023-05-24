@@ -1,0 +1,10 @@
+log/
+alglog/
+__pycache__
+Data/
+results/
+summary/
+zothers/
+search**
+start**
+run**.sh
